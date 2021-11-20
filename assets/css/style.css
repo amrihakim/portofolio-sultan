@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+body {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar h1 {
+    font-family: 'Cedarville Cursive', cursive;
+    color: #0984e3;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #0984e3;
+    transition: 1s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color:#eb579e;
+}
+
+.social-media a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+.btn {
+    background-color: #0984E3;
+    color: white;
+    transition: 1s;
+}
+
+.btn:hover {
+    border: 1px solid #0984E3 ;
+    background-color: white ;
+    color: #0984E3;
+}
+
+
